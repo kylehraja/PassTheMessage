@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(#b8dafc, white);
+  overflow: hidden;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  width: fit-content;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#border {
+  border-bottom: 2px solid rgb(221, 215, 215, 0.5);
+}
+
+#input-button {
+  border-radius: 5px 0 0 5px;
+}
+
+#message-output {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 100vh;
+  margin: auto;
+}
+
+.message {
+  border: 1px solid lightgray;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 0 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+#message-input {
+  width: 90%;
+  padding: 8px 2px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 480px) {
+  #message-input {
+    width: 80%;
+  }
+}
